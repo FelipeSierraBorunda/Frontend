@@ -113,7 +113,7 @@ function Clientes({ alSalir }) {
 
       <ul>
         {clientes.map(c => (
-          <li key={c.id}>{c.nombre} — {c.contacto} — {c.email}</li>
+          <li key={c.id}> {c.id} - {c.nombre} — {c.contacto} — {c.email}</li>
         ))}
       </ul>
 
